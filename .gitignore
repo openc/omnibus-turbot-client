@@ -11,3 +11,4 @@ pkg
 local
 vendor
 bin
+.kitchen
