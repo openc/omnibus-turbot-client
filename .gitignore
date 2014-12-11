@@ -9,3 +9,5 @@ tmp/**/*
 TAGS
 pkg
 local
+vendor
+bin
