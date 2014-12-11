@@ -27,6 +27,12 @@ fi
 EOF}
   # make it executable
   command "chmod +x #{install_dir}/bin/turbot"
+
+  # Remove docs and headers to save some space
+  command "rm -rf #{install_dir}/lib/ruby/gems/1.9.1/cache"
+  command "rm -rf #{install_dir}/lib/ruby/gems/1.9.1/docs"
+  command "rm -rf #{install_dir}/man"
+  command "rm -rf #{install_dir}/include"
 end
 
 # package :deb do
