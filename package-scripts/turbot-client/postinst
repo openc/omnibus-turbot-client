@@ -5,6 +5,7 @@
 #
 
 PROGNAME=$(basename $0)
+DEST_DIR=/opt/turbot-client
 
 function error_exit
 {
@@ -12,7 +13,7 @@ function error_exit
   exit 1
 }
 
-ln -sf $DEST_DIR/bin/turbot /usr/bin || error_exit "Cannot link turbot to /usr/bin"
+ln -sf $DEST_DIR/bin/turbot /usr/bin/turbot || error_exit "Cannot link turbot to /usr/bin"
 echo "Thank you for installing turbot!"
 
 exit 0
