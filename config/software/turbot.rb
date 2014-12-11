@@ -12,6 +12,7 @@ dependency "ruby"
 dependency "rubygems"
 dependency "bundler"
 dependency "sqlite3"
+dependency "nokogiri"
 
 build do
   gem "install turbot -n #{install_dir}/sbin"
