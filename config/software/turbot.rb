@@ -20,7 +20,7 @@ build do
   command %Q{cat << EOF > #{install_dir}/bin/turbot
 #!/bin/bash
 if [[ \\$(type -P "rvm") ]]; then
-  rvm use system do /opt/turbot-client/sbin/turbot "$@"
+  rvm use system do /opt/turbot-client/sbin/turbot "\\$@"
 else
   /opt/turbot-client/sbin/turbot "\\$@"
 fi
