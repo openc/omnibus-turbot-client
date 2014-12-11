@@ -1,0 +1,4821 @@
+==== Iterating ====
+
+Activated:
+Requirements:
+  kitchen-vagrant (~> 0.14) ruby
+  test-kitchen (~> 1.2) ruby
+  omnibus (~> 3.2) ruby
+  berkshelf (~> 3.0) ruby
+Attempting:
+  kitchen-vagrant (~> 0.14) ruby
+  Activating: kitchen-vagrant (0.15.0)
+    * kitchen-vagrant (~> 0.14)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+Requirements:
+  test-kitchen (~> 1.2) ruby
+  omnibus (~> 3.2) ruby
+  test-kitchen (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+Attempting:
+  test-kitchen (~> 1.2) ruby
+  Activating: test-kitchen (1.2.1)
+    * test-kitchen (~> 1.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+Requirements:
+  test-kitchen (~> 1.0) ruby
+  omnibus (~> 3.2) ruby
+  net-ssh (~> 2.7) ruby
+  mixlib-shellout (~> 1.2) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+Attempting:
+  test-kitchen (~> 1.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+Requirements:
+  omnibus (~> 3.2) ruby
+  net-ssh (~> 2.7) ruby
+  mixlib-shellout (~> 1.2) ruby
+  safe_yaml (~> 1.0) ruby
+  thor (~> 0.18) ruby
+  net-scp (~> 1.1) ruby
+  berkshelf (~> 3.0) ruby
+Attempting:
+  omnibus (~> 3.2) ruby
+  Activating: omnibus (3.2.2)
+    * omnibus (~> 3.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+Requirements:
+  mixlib-shellout (~> 1.4) ruby
+  ohai (~> 7.2) ruby
+  mixlib-shellout (~> 1.2) ruby
+  net-ssh (~> 2.7) ruby
+  chef-sugar (~> 1.2) ruby
+  thor (~> 0.18) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-shellout (~> 1.4) ruby
+  Activating: mixlib-shellout (1.6.1)
+    * omnibus (~> 3.2)
+    * mixlib-shellout (~> 1.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+Requirements:
+  mixlib-shellout (~> 1.2) ruby
+  ohai (~> 7.2) ruby
+  net-ssh (~> 2.7) ruby
+  chef-sugar (~> 1.2) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  thor (~> 0.18) ruby
+  net-scp (~> 1.1) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-shellout (~> 1.2) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+Requirements:
+  ohai (~> 7.2) ruby
+  net-ssh (~> 2.7) ruby
+  thor (~> 0.18) ruby
+  chef-sugar (~> 1.2) ruby
+  safe_yaml (~> 1.0) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ohai (~> 7.2) ruby
+  Activating: ohai (7.4.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+Requirements:
+  mixlib-shellout (~> 1.2) ruby
+  wmi-lite (~> 1.0) ruby
+  systemu (~> 2.6.4) ruby
+  mixlib-config (~> 2.0) ruby
+  net-ssh (~> 2.7) ruby
+  ffi (~> 1.9) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  ipaddress (>= 0) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  chef-sugar (~> 1.2) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-shellout (~> 1.2) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+Requirements:
+  wmi-lite (~> 1.0) ruby
+  systemu (~> 2.6.4) ruby
+  mixlib-config (~> 2.0) ruby
+  net-ssh (~> 2.7) ruby
+  ffi (~> 1.9) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  ipaddress (>= 0) ruby
+  thor (~> 0.18) ruby
+  chef-sugar (~> 1.2) ruby
+  safe_yaml (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  wmi-lite (~> 1.0) ruby
+  Activating: wmi-lite (1.0.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * wmi-lite (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+Requirements:
+  systemu (~> 2.6.4) ruby
+  mixlib-config (~> 2.0) ruby
+  net-ssh (~> 2.7) ruby
+  ffi (~> 1.9) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  ipaddress (>= 0) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  chef-sugar (~> 1.2) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  systemu (~> 2.6.4) ruby
+  Activating: systemu (2.6.4)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * systemu (~> 2.6.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+Requirements:
+  mixlib-config (~> 2.0) ruby
+  net-ssh (~> 2.7) ruby
+  ffi (~> 1.9) ruby
+  thor (~> 0.18) ruby
+  net-scp (~> 1.1) ruby
+  ipaddress (>= 0) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  chef-sugar (~> 1.2) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-config (~> 2.0) ruby
+  Activating: mixlib-config (2.1.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * mixlib-config (~> 2.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+Requirements:
+  net-ssh (~> 2.7) ruby
+  ffi (~> 1.9) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  ipaddress (>= 0) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  chef-sugar (~> 1.2) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  net-ssh (~> 2.7) ruby
+  Activating: net-ssh (2.9.1)
+    * test-kitchen (~> 1.2)
+    * net-ssh (~> 2.7)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+Requirements:
+  ffi (~> 1.9) ruby
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  ipaddress (>= 0) ruby
+  chef-sugar (~> 1.2) ruby
+  safe_yaml (~> 1.0) ruby
+  thor (~> 0.18) ruby
+  mixlib-log (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ffi (~> 1.9) ruby
+  Activating: ffi (1.9.6)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * ffi (~> 1.9)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+Requirements:
+  net-scp (~> 1.1) ruby
+  thor (~> 0.18) ruby
+  ipaddress (>= 0) ruby
+  chef-sugar (~> 1.2) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  net-scp (~> 1.1) ruby
+  Activating: net-scp (1.2.1)
+    * test-kitchen (~> 1.2)
+    * net-scp (~> 1.1)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+Requirements:
+  net-ssh (>= 2.6.5) ruby
+  ipaddress (>= 0) ruby
+  chef-sugar (~> 1.2) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  thor (~> 0.18) ruby
+  mixlib-cli (>= 0) ruby
+  mixlib-log (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  net-ssh (>= 2.6.5) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+Requirements:
+  ipaddress (>= 0) ruby
+  chef-sugar (~> 1.2) ruby
+  thor (~> 0.18) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ipaddress (>= 0) ruby
+  Activating: ipaddress (0.8.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * ipaddress (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+Requirements:
+  chef-sugar (~> 1.2) ruby
+  thor (~> 0.18) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  mixlib-log (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  chef-sugar (~> 1.2) ruby
+  Activating: chef-sugar (1.3.0)
+    * omnibus (~> 3.2)
+    * chef-sugar (~> 1.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+Requirements:
+  thor (~> 0.18) ruby
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  mixlib-log (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  thor (~> 0.18) ruby
+  Activating: thor (0.19.1)
+    * test-kitchen (~> 1.2)
+    * thor (~> 0.18)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+Requirements:
+  thor (~> 0.18) ruby
+  safe_yaml (~> 1.0) ruby
+  mixlib-cli (>= 0) ruby
+  mixlib-log (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  thor (~> 0.18) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+Requirements:
+  safe_yaml (~> 1.0) ruby
+  mixlib-log (>= 0) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  safe_yaml (~> 1.0) ruby
+  Activating: safe_yaml (1.0.4)
+    * test-kitchen (~> 1.2)
+    * safe_yaml (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+Requirements:
+  mixlib-log (>= 0) ruby
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-log (>= 0) ruby
+  Activating: mixlib-log (1.6.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * mixlib-log (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+Requirements:
+  mixlib-cli (>= 0) ruby
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-cli (>= 0) ruby
+  Activating: mixlib-cli (1.5.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * mixlib-cli (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+Requirements:
+  ffi-yajl (~> 1.0) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ffi-yajl (~> 1.0) ruby
+  Activating: ffi-yajl (1.3.1)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * ffi-yajl (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+Requirements:
+  ffi (~> 1.5) ruby
+  libyajl2 (~> 1.2) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ffi (~> 1.5) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+Requirements:
+  libyajl2 (~> 1.2) ruby
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  libyajl2 (~> 1.2) ruby
+  Activating: libyajl2 (1.2.0)
+    * omnibus (~> 3.2)
+    * ohai (~> 7.2)
+    * ffi-yajl (~> 1.0)
+    * libyajl2 (~> 1.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+Requirements:
+  berkshelf (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  berkshelf (~> 3.0) ruby
+  Activating: berkshelf (3.2.1)
+    * berkshelf (~> 3.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+Requirements:
+  thor (~> 0.19) ruby
+  berkshelf-api-client (~> 1.2) ruby
+  faraday (~> 0.9.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-extensions (~> 1.0) ruby
+  minitar (~> 0.5.4) ruby
+  cleanroom (~> 1.0) ruby
+  buff-config (~> 1.0) ruby
+  solve (~> 1.1) ruby
+  buff-shell_out (~> 0.1) ruby
+  ridley (~> 4.0) ruby
+  addressable (~> 2.3.4) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  thor (~> 0.19) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+Requirements:
+  berkshelf-api-client (~> 1.2) ruby
+  faraday (~> 0.9.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-extensions (~> 1.0) ruby
+  cleanroom (~> 1.0) ruby
+  minitar (~> 0.5.4) ruby
+  buff-config (~> 1.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  ridley (~> 4.0) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  berkshelf-api-client (~> 1.2) ruby
+  Activating: berkshelf-api-client (1.2.0)
+    * berkshelf (~> 3.0)
+    * berkshelf-api-client (~> 1.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+Requirements:
+  faraday (~> 0.9.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-extensions (~> 1.0) ruby
+  cleanroom (~> 1.0) ruby
+  minitar (~> 0.5.4) ruby
+  faraday (~> 0.9.0) ruby
+  buff-config (~> 1.0) ruby
+  ridley (~> 4.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  solve (~> 1.1) ruby
+  addressable (~> 2.3.4) ruby
+  retryable (~> 1.3.3) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  faraday (~> 0.9.0) ruby
+  Activating: faraday (0.9.0)
+    * berkshelf (~> 3.0)
+    * faraday (~> 0.9.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+Requirements:
+  faraday (~> 0.9.0) ruby
+  buff-extensions (~> 1.0) ruby
+  celluloid (~> 0.16.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  minitar (~> 0.5.4) ruby
+  cleanroom (~> 1.0) ruby
+  buff-config (~> 1.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  ridley (~> 4.0) ruby
+  solve (~> 1.1) ruby
+  addressable (~> 2.3.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  faraday (~> 0.9.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+Requirements:
+  buff-extensions (~> 1.0) ruby
+  celluloid (~> 0.16.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  cleanroom (~> 1.0) ruby
+  minitar (~> 0.5.4) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  buff-config (~> 1.0) ruby
+  ridley (~> 4.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-extensions (~> 1.0) ruby
+  Activating: buff-extensions (1.0.0)
+    * berkshelf (~> 3.0)
+    * buff-extensions (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+Requirements:
+  celluloid (~> 0.16.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  minitar (~> 0.5.4) ruby
+  cleanroom (~> 1.0) ruby
+  buff-config (~> 1.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  ridley (~> 4.0) ruby
+  solve (~> 1.1) ruby
+  addressable (~> 2.3.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  celluloid (~> 0.16.0) ruby
+  Activating: celluloid (0.16.0)
+    * berkshelf (~> 3.0)
+    * celluloid (~> 0.16.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+Requirements:
+  celluloid-io (~> 0.16.1) ruby
+  minitar (~> 0.5.4) ruby
+  cleanroom (~> 1.0) ruby
+  buff-config (~> 1.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  timers (~> 4.0.0) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  retryable (~> 1.3.3) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  celluloid-io (~> 0.16.1) ruby
+  Activating: celluloid-io (0.16.1)
+    * berkshelf (~> 3.0)
+    * celluloid-io (~> 0.16.1)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+Requirements:
+  celluloid (>= 0.16.0) ruby
+  cleanroom (~> 1.0) ruby
+  minitar (~> 0.5.4) ruby
+  buff-config (~> 1.0) ruby
+  timers (~> 4.0.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  nio4r (>= 1.0.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  ridley (~> 4.0) ruby
+  solve (~> 1.1) ruby
+  addressable (~> 2.3.4) ruby
+  retryable (~> 1.3.3) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  celluloid (>= 0.16.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+Requirements:
+  cleanroom (~> 1.0) ruby
+  minitar (~> 0.5.4) ruby
+  buff-config (~> 1.0) ruby
+  timers (~> 4.0.0) ruby
+  nio4r (>= 1.0.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  retryable (~> 1.3.3) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  cleanroom (~> 1.0) ruby
+  Activating: cleanroom (1.0.0)
+    * berkshelf (~> 3.0)
+    * cleanroom (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+Requirements:
+  minitar (~> 0.5.4) ruby
+  buff-config (~> 1.0) ruby
+  timers (~> 4.0.0) ruby
+  nio4r (>= 1.0.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  ridley (~> 4.0) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  minitar (~> 0.5.4) ruby
+  Activating: minitar (0.5.4)
+    * berkshelf (~> 3.0)
+    * minitar (~> 0.5.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+Requirements:
+  buff-config (~> 1.0) ruby
+  timers (~> 4.0.0) ruby
+  nio4r (>= 1.0.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  retryable (~> 1.3.3) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-config (~> 1.0) ruby
+  Activating: buff-config (1.0.1)
+    * berkshelf (~> 3.0)
+    * buff-config (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+Requirements:
+  buff-extensions (~> 1.0) ruby
+  varia_model (~> 0.4) ruby
+  nio4r (>= 1.0.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  timers (~> 4.0.0) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  addressable (~> 2.3.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-extensions (~> 1.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+Requirements:
+  varia_model (~> 0.4) ruby
+  nio4r (>= 1.0.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  timers (~> 4.0.0) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  retryable (~> 1.3.3) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  varia_model (~> 0.4) ruby
+  Activating: varia_model (0.4.0)
+    * berkshelf (~> 3.0)
+    * buff-config (~> 1.0)
+    * varia_model (~> 0.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+Requirements:
+  buff-extensions (~> 1.0) ruby
+  multipart-post (< 3, >= 1.2) ruby
+  timers (~> 4.0.0) ruby
+  nio4r (>= 1.0.0) ruby
+  ridley (~> 4.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-extensions (~> 1.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+Requirements:
+  multipart-post (< 3, >= 1.2) ruby
+  timers (~> 4.0.0) ruby
+  nio4r (>= 1.0.0) ruby
+  ridley (~> 4.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  multipart-post (< 3, >= 1.2) ruby
+  Activating: multipart-post (2.0.0)
+    * berkshelf (~> 3.0)
+    * faraday (~> 0.9.0)
+    * multipart-post (< 3, >= 1.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+Requirements:
+  timers (~> 4.0.0) ruby
+  nio4r (>= 1.0.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  ridley (~> 4.0) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  timers (~> 4.0.0) ruby
+  Activating: timers (4.0.1)
+    * berkshelf (~> 3.0)
+    * celluloid (~> 0.16.0)
+    * timers (~> 4.0.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+Requirements:
+  nio4r (>= 1.0.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  ridley (~> 4.0) ruby
+  solve (~> 1.1) ruby
+  addressable (~> 2.3.4) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  nio4r (>= 1.0.0) ruby
+  Activating: nio4r (1.0.1)
+    * berkshelf (~> 3.0)
+    * celluloid-io (~> 0.16.1)
+    * nio4r (>= 1.0.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+Requirements:
+  buff-shell_out (~> 0.1) ruby
+  ridley (~> 4.0) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-shell_out (~> 0.1) ruby
+  Activating: buff-shell_out (0.2.0)
+    * berkshelf (~> 3.0)
+    * buff-shell_out (~> 0.1)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+Requirements:
+  buff-ruby_engine (~> 0.1.0) ruby
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-ruby_engine (~> 0.1.0) ruby
+  Activating: buff-ruby_engine (0.1.0)
+    * berkshelf (~> 3.0)
+    * buff-shell_out (~> 0.1)
+    * buff-ruby_engine (~> 0.1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+Requirements:
+  addressable (~> 2.3.4) ruby
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  addressable (~> 2.3.4) ruby
+  Activating: addressable (2.3.6)
+    * berkshelf (~> 3.0)
+    * addressable (~> 2.3.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+Requirements:
+  solve (~> 1.1) ruby
+  ridley (~> 4.0) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  solve (~> 1.1) ruby
+  Activating: solve (1.2.1)
+    * berkshelf (~> 3.0)
+    * solve (~> 1.1)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+Requirements:
+  ridley (~> 4.0) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ridley (~> 4.0) ruby
+  Activating: ridley (4.1.1)
+    * berkshelf (~> 3.0)
+    * ridley (~> 4.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  buff-extensions (~> 1.0) ruby
+  addressable (>= 0) ruby
+  faraday (~> 0.9.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-config (~> 1.0) ruby
+  varia_model (~> 0.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-extensions (~> 1.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  addressable (>= 0) ruby
+  faraday (~> 0.9.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-config (~> 1.0) ruby
+  varia_model (~> 0.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  dep_selector (~> 1.0) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  addressable (>= 0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  faraday (~> 0.9.0) ruby
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-config (~> 1.0) ruby
+  varia_model (~> 0.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  faraday (~> 0.9.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  celluloid-io (~> 0.16.1) ruby
+  celluloid (~> 0.16.0) ruby
+  buff-config (~> 1.0) ruby
+  varia_model (~> 0.4) ruby
+  buff-shell_out (~> 0.1) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  celluloid-io (~> 0.16.1) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  celluloid (~> 0.16.0) ruby
+  buff-config (~> 1.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  varia_model (~> 0.4) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  celluloid (~> 0.16.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  buff-config (~> 1.0) ruby
+  buff-shell_out (~> 0.1) ruby
+  varia_model (~> 0.4) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-config (~> 1.0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  buff-shell_out (~> 0.1) ruby
+  varia_model (~> 0.4) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-shell_out (~> 0.1) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  varia_model (~> 0.4) ruby
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  varia_model (~> 0.4) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+Requirements:
+  mixlib-authentication (>= 1.3.0) ruby
+  buff-ignore (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-authentication (>= 1.3.0) ruby
+  Activating: mixlib-authentication (1.3.0)
+    * berkshelf (~> 3.0)
+    * ridley (~> 4.0)
+    * mixlib-authentication (>= 1.3.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+Requirements:
+  mixlib-log (>= 0) ruby
+  buff-ignore (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mixlib-log (>= 0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+Requirements:
+  buff-ignore (~> 1.1) ruby
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  retryable (~> 1.3.3) ruby
+  dep_selector (~> 1.0) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  buff-ignore (~> 1.1) ruby
+  Activating: buff-ignore (1.1.1)
+    * berkshelf (~> 3.0)
+    * ridley (~> 4.0)
+    * buff-ignore (~> 1.1)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+Requirements:
+  json (>= 1.7.7) ruby
+  semverse (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  json (>= 1.7.7) ruby
+  Activating: json (1.8.1)
+    * berkshelf (~> 3.0)
+    * ridley (~> 4.0)
+    * json (>= 1.7.7)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+Requirements:
+  semverse (~> 1.1) ruby
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  octokit (~> 3.0) ruby
+  uber-s3 (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  semverse (~> 1.1) ruby
+  Activating: semverse (1.2.1)
+    * berkshelf (~> 3.0)
+    * solve (~> 1.1)
+    * semverse (~> 1.1)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+Requirements:
+  semverse (~> 1.1) ruby
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  semverse (~> 1.1) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+Requirements:
+  dep_selector (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  retryable (>= 0) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  dep_selector (~> 1.0) ruby
+  Activating: dep_selector (1.0.3)
+    * berkshelf (~> 3.0)
+    * solve (~> 1.1)
+    * dep_selector (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+Requirements:
+  ffi (~> 1.9) ruby
+  dep-selector-libgecode (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  ffi (~> 1.9) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+Requirements:
+  dep-selector-libgecode (~> 1.0) ruby
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  dep-selector-libgecode (~> 1.0) ruby
+  Activating: dep-selector-libgecode (1.0.2)
+    * berkshelf (~> 3.0)
+    * solve (~> 1.1)
+    * dep_selector (~> 1.0)
+    * dep-selector-libgecode (~> 1.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+Requirements:
+  retryable (~> 1.3.3) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  retryable (>= 0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  retryable (~> 1.3.3) ruby
+  Activating: retryable (1.3.6)
+    * berkshelf (~> 3.0)
+    * retryable (~> 1.3.3)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+Requirements:
+  retryable (>= 0) ruby
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  retryable (>= 0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+Requirements:
+  net-http-persistent (>= 2.8) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  net-http-persistent (>= 2.8) ruby
+  Activating: net-http-persistent (2.9.4)
+    * berkshelf (~> 3.0)
+    * ridley (~> 4.0)
+    * net-http-persistent (>= 2.8)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+Requirements:
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  Activating: hashie (2.1.2)
+    * berkshelf (~> 3.0)
+    * buff-config (~> 1.0)
+    * varia_model (~> 0.4)
+    * hashie (< 3.0.0, >= 2.0.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+Requirements:
+  hashie (< 3.0.0, >= 2.0.2) ruby
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  hashie (< 3.0.0, >= 2.0.2) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+Requirements:
+  uber-s3 (>= 0) ruby
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  uber-s3 (>= 0) ruby
+  Activating: uber-s3 (0.2.4)
+    * omnibus (~> 3.2)
+    * uber-s3 (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+Requirements:
+  octokit (~> 3.0) ruby
+  mime-types (~> 1.17) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  octokit (~> 3.0) ruby
+  Activating: octokit (3.7.0)
+    * berkshelf (~> 3.0)
+    * octokit (~> 3.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+Requirements:
+  sawyer (>= 0.5.3, ~> 0.6.0) ruby
+  mime-types (~> 1.17) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  sawyer (>= 0.5.3, ~> 0.6.0) ruby
+  Activating: sawyer (0.6.0)
+    * berkshelf (~> 3.0)
+    * octokit (~> 3.0)
+    * sawyer (>= 0.5.3, ~> 0.6.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+Requirements:
+  addressable (~> 2.3.5) ruby
+  faraday (< 0.10, ~> 0.8) ruby
+  mime-types (~> 1.17) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  addressable (~> 2.3.5) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+Requirements:
+  faraday (< 0.10, ~> 0.8) ruby
+  mime-types (~> 1.17) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  faraday (< 0.10, ~> 0.8) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+Requirements:
+  mime-types (~> 1.17) ruby
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mime-types (~> 1.17) ruby
+  Activating: mime-types (1.25.1)
+    * omnibus (~> 3.2)
+    * uber-s3 (>= 0)
+    * mime-types (~> 1.17)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+Requirements:
+  mime-types (~> 1.16) ruby
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  mime-types (~> 1.16) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+Requirements:
+  hitimes (>= 0) ruby
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  hitimes (>= 0) ruby
+  Activating: hitimes (1.2.2)
+    * berkshelf (~> 3.0)
+    * celluloid (~> 0.16.0)
+    * timers (~> 4.0.0)
+    * hitimes (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+Requirements:
+  erubis (>= 0) ruby
+  fpm (~> 0.4) ruby
+Attempting:
+  erubis (>= 0) ruby
+  Activating: erubis (2.7.0)
+    * berkshelf (~> 3.0)
+    * ridley (~> 4.0)
+    * erubis (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+Requirements:
+  fpm (~> 0.4) ruby
+Attempting:
+  fpm (~> 0.4) ruby
+  Activating: fpm (0.4.42)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+Requirements:
+  json (>= 1.7.7) ruby
+  cabin (>= 0.6.0) ruby
+  arr-pm (~> 0.0.8) ruby
+  clamp (~> 0.6) ruby
+  ftw (~> 0.0.30) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  json (>= 1.7.7) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+Requirements:
+  cabin (>= 0.6.0) ruby
+  arr-pm (~> 0.0.8) ruby
+  clamp (~> 0.6) ruby
+  ftw (~> 0.0.30) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  cabin (>= 0.6.0) ruby
+  Activating: cabin (0.6.1)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * cabin (>= 0.6.0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+Requirements:
+  arr-pm (~> 0.0.8) ruby
+  clamp (~> 0.6) ruby
+  ftw (~> 0.0.30) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  arr-pm (~> 0.0.8) ruby
+  Activating: arr-pm (0.0.9)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * arr-pm (~> 0.0.8)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+Requirements:
+  cabin (> 0) ruby
+  clamp (~> 0.6) ruby
+  ftw (~> 0.0.30) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  cabin (> 0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+Requirements:
+  clamp (~> 0.6) ruby
+  ftw (~> 0.0.30) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  clamp (~> 0.6) ruby
+  Activating: clamp (0.6.3)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * clamp (~> 0.6)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+Requirements:
+  ftw (~> 0.0.30) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  ftw (~> 0.0.30) ruby
+  Activating: ftw (0.0.42)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * ftw (~> 0.0.30)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+Requirements:
+  cabin (> 0) ruby
+  addressable (>= 0) ruby
+  http_parser.rb (~> 0.6) ruby
+  backports (>= 2.6.2) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  cabin (> 0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+Requirements:
+  addressable (>= 0) ruby
+  http_parser.rb (~> 0.6) ruby
+  backports (>= 2.6.2) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  addressable (>= 0) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+Requirements:
+  http_parser.rb (~> 0.6) ruby
+  backports (>= 2.6.2) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  http_parser.rb (~> 0.6) ruby
+  Activating: http_parser.rb (0.6.0)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * ftw (~> 0.0.30)
+    * http_parser.rb (~> 0.6)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+  http_parser.rb (0.6.0)
+Requirements:
+  backports (>= 2.6.2) ruby
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  backports (>= 2.6.2) ruby
+  Activating: backports (3.6.4)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * ftw (~> 0.0.30)
+    * backports (>= 2.6.2)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+  http_parser.rb (0.6.0)
+  backports (3.6.4)
+Requirements:
+  backports (>= 2.6.2) ruby
+  childprocess (>= 0) ruby
+Attempting:
+  backports (>= 2.6.2) ruby
+    * [SUCCESS] Already activated
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+  http_parser.rb (0.6.0)
+  backports (3.6.4)
+Requirements:
+  childprocess (>= 0) ruby
+Attempting:
+  childprocess (>= 0) ruby
+  Activating: childprocess (0.5.5)
+    * omnibus (~> 3.2)
+    * fpm (~> 0.4)
+    * childprocess (>= 0)
+    Dependencies
+==== Iterating ====
+
+Activated:
+  kitchen-vagrant (0.15.0)
+  test-kitchen (1.2.1)
+  omnibus (3.2.2)
+  mixlib-shellout (1.6.1)
+  ohai (7.4.0)
+  wmi-lite (1.0.0)
+  systemu (2.6.4)
+  mixlib-config (2.1.0)
+  net-ssh (2.9.1)
+  ffi (1.9.6)
+  net-scp (1.2.1)
+  ipaddress (0.8.0)
+  chef-sugar (1.3.0)
+  thor (0.19.1)
+  safe_yaml (1.0.4)
+  mixlib-log (1.6.0)
+  mixlib-cli (1.5.0)
+  ffi-yajl (1.3.1)
+  libyajl2 (1.2.0)
+  berkshelf (3.2.1)
+  berkshelf-api-client (1.2.0)
+  faraday (0.9.0)
+  buff-extensions (1.0.0)
+  celluloid (0.16.0)
+  celluloid-io (0.16.1)
+  cleanroom (1.0.0)
+  minitar (0.5.4)
+  buff-config (1.0.1)
+  varia_model (0.4.0)
+  multipart-post (2.0.0)
+  timers (4.0.1)
+  nio4r (1.0.1)
+  buff-shell_out (0.2.0)
+  buff-ruby_engine (0.1.0)
+  addressable (2.3.6)
+  solve (1.2.1)
+  ridley (4.1.1)
+  mixlib-authentication (1.3.0)
+  buff-ignore (1.1.1)
+  json (1.8.1)
+  semverse (1.2.1)
+  dep_selector (1.0.3)
+  dep-selector-libgecode (1.0.2)
+  retryable (1.3.6)
+  net-http-persistent (2.9.4)
+  hashie (2.1.2)
+  uber-s3 (0.2.4)
+  octokit (3.7.0)
+  sawyer (0.6.0)
+  mime-types (1.25.1)
+  hitimes (1.2.2)
+  erubis (2.7.0)
+  fpm (0.4.42)
+  cabin (0.6.1)
+  arr-pm (0.0.9)
+  clamp (0.6.3)
+  ftw (0.0.42)
+  http_parser.rb (0.6.0)
+  backports (3.6.4)
+  childprocess (0.5.5)
+Requirements:
+  ffi (>= 1.0.11, ~> 1.0) ruby
+Attempting:
+  ffi (>= 1.0.11, ~> 1.0) ruby
+    * [SUCCESS] Already activated
+rbenv: cannot rehash: /home/seb/.rbenv/shims/.rbenv-shim exists

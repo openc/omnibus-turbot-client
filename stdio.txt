@@ -1,0 +1,66 @@
+Fetching gem metadata from https://rubygems.org/.......
+Fetching additional metadata from https://rubygems.org/..
+Resolving dependencies...[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f[2J[f
+Using cabin 0.6.1
+Using addressable 2.3.6
+Using backports 3.6.4
+Using multipart-post 2.0.0
+Using buff-extensions 1.0.0
+Using hashie 2.1.2
+Using buff-ruby_engine 0.1.0
+Using hitimes 1.2.2
+Using nio4r 1.0.1
+Using cleanroom 1.0.0
+Using minitar 0.5.4
+Using retryable 1.3.6
+Using buff-ignore 1.1.1
+Using erubis 2.7.0
+Using json 1.8.1
+Using mixlib-log 1.6.0
+Using net-http-persistent 2.9.4
+Using semverse 1.2.1
+Using ffi 1.9.6
+Using thor 0.19.1
+Using chef-sugar 1.3.0
+Using clamp 0.6.3
+Using libyajl2 1.2.0
+Using http_parser.rb 0.6.0
+Using ipaddress 0.8.0
+Using mixlib-shellout 1.6.1
+Using net-ssh 2.9.1
+Using safe_yaml 1.0.4
+Using mime-types 1.25.1
+Using mixlib-cli 1.5.0
+Using mixlib-config 2.1.0
+Using systemu 2.6.4
+Using wmi-lite 1.0.0
+Using bundler 1.6.4
+Using arr-pm 0.0.9
+Using faraday 0.9.0
+Using varia_model 0.4.0
+Using buff-shell_out 0.2.0
+Using timers 4.0.1
+Using mixlib-authentication 1.3.0
+Using childprocess 0.5.5
+Using ffi-yajl 1.3.1
+Using ftw 0.0.42
+Using net-scp 1.2.1
+Using uber-s3 0.2.4
+Using berkshelf-api-client 1.2.0
+Using sawyer 0.6.0
+Using buff-config 1.0.1
+Using celluloid 0.16.0
+Using ohai 7.4.0
+Using fpm 0.4.42
+Using test-kitchen 1.2.1
+Using octokit 3.7.0
+Using celluloid-io 0.16.1
+Using omnibus 3.2.2
+Using kitchen-vagrant 0.15.0
+Using ridley 4.1.1
+Installing dep-selector-libgecode 1.0.2
+Installing dep_selector 1.0.3
+Installing solve 1.2.1
+Installing berkshelf 3.2.1
+Your bundle is complete!
+Use `bundle show [gemname]` to see where a bundled gem is installed.
