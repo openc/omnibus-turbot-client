@@ -1,9 +1,9 @@
 name 'turbot-client'
-maintainer 'CHANGE ME'
-homepage 'https://CHANGE-ME.com'
+maintainer 'OpenCorporates'
+homepage 'https://opencorporates.com'
 
 install_dir     '/opt/turbot-client'
-build_version   Omnibus::BuildVersion.semver
+build_version   '0.1.4'
 build_iteration 1
 
 # creates required build directories
