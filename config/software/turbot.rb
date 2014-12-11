@@ -22,7 +22,7 @@ build do
 if [[ \\$(type -P "rvm") ]]; then
   rvm use system do /opt/turbot-client/sbin/turbot "$@"
 else
-  /opt/turbot-client/sbin/turbot "$@"
+  /opt/turbot-client/sbin/turbot "\\$@"
 fi
 EOF}
   # make it executable
