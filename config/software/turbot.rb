@@ -15,8 +15,8 @@ dependency "sqlite3"
 dependency "nokogiri"
 
 build do
-  gem "install turbot -n #{install_dir}/sbin"
-  gem "install turbot-ruby-gems"
+  gem "install turbot -n #{install_dir}/sbin --no-ri --no-rdoc"
+  gem "install turbot-ruby-gems --no-ri --no-rdoc"
   command %Q{cat << EOF > #{install_dir}/bin/turbot
 #!/bin/bash
 if [[ \\$(type -P "rvm") ]]; then
