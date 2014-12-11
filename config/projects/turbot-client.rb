@@ -4,7 +4,7 @@ homepage 'https://opencorporates.com'
 
 install_dir     '/opt/turbot-client'
 build_version   '0.1.4'
-build_iteration 1
+build_iteration 2
 
 # creates required build directories
 dependency 'preparation'
