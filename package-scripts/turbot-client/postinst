@@ -12,6 +12,7 @@ function error_exit
   exit 1
 }
 
-echo "Thank you for installing turbot-client!"
+ln -sf $DEST_DIR/bin/turbot /usr/bin || error_exit "Cannot link turbot to /usr/bin"
+echo "Thank you for installing turbot!"
 
 exit 0
