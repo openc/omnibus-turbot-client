@@ -19,7 +19,7 @@ build do
   gem "install turbot-ruby-gems"
   command %Q{cat << EOF > #{install_dir}/bin/turbot
 #!/bin/bash
-if [[ $(type -P "rvm") ]]; then
+if [[ \\$(type -P "rvm") ]]; then
   rvm use system do /opt/turbot-client/sbin/turbot "$@"
 else
   /opt/turbot-client/sbin/turbot "$@"
