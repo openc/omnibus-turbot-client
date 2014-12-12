@@ -4,6 +4,7 @@
 # after package is uninstalled.
 #
 
+rm /usr/bin/turbot
 echo "turbot-client has been uninstalled!"
 
 exit 0
