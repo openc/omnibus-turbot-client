@@ -14,6 +14,8 @@ function error_exit
 }
 
 ln -sf $DEST_DIR/bin/turbot /usr/bin/turbot || error_exit "Cannot link turbot to /usr/bin"
+ln -sf $DEST_DIR/embedded/bin/ruby /usr/bin/tbruby || error_exit "Cannot link turbot ruby to /usr/bin"
+ln -sf $DEST_DIR/embedded/bin/irb /usr/bin/tbirb || error_exit "Cannot link turbot ruby to /usr/bin"
 echo "Thank you for installing turbot!"
 
 exit 0
